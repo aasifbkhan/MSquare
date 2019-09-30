@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <img src="{{asset('images/Msquare1.jpeg')}}">
                 </div>
 
                 <div class="links">
