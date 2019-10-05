@@ -18,10 +18,10 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
+<body style="background-image: url( {{ asset('images/background.jpg') }}) ">
     <div id="app">
         <nav class="navbar navbar-expand-md sticky-top navbar-light bg-white shadow-sm">
             <div class="container">
@@ -36,7 +36,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Products</a>
+                            <a class="nav-link" href="{{ url('/product')}}">Products</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About</a>
