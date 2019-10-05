@@ -1,33 +1,70 @@
 @extends('layouts.app')
 
 @section('content')
-
-<div class="container">
+<header>
+	<h2 class="text-center">MSquare's Products</h2>
+</header>
+<div class="container mt-3">
 	<div class="row">
-    	<div class="col-6 col-sm-5">
-    		<div class="card ml-3 text-center" style="width: 25rem;">
-  				<img src="{{asset('images/cookie.jpg')}}" class="card-img-top">
+    	<div class="col-6 col-sm-4">
+    		<div class="card text-center" style="width: 20rem;">
+  				<img src="{{asset('images/cookie1.jpg')}}" class="card-img-top">
   				<div class="card-body">
-    				<h5 class="card-title">Card title</h5>
-    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    				<a href="#" class="btn btn-primary">Go somewhere</a>
+    				<h4 class="card-title">Cookies</h4>
+    				<a href="#" class="btn btn-primary">Go inside</a>
   				</div>
 			</div>
     	</div>
-    	<div class="col-6 col-sm-5">
-    		<div class="card ml-10 text-center" style="width: 25rem;">
-  				<img src="..." class="card-img-top">
+    	<div class="col-6 col-sm-4">
+    		<div class="card text-center" style="width: 20rem;">
+  				<img src="{{asset('images/cakes.jpg')}}" class="card-img-top">
   				<div class="card-body">
-    				<h5 class="card-title">Card title</h5>
-    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    				<a href="#" class="btn btn-primary">Go somewhere</a>
+    				<h4 class="card-title">Cakes</h4>
+    				<a href="#" class="btn btn-primary">Go inside</a>
+  				</div>
+			</div>
+    	</div>
+    	<div class="col-6 col-sm-4">
+    		<div class="card text-center" style="width: 20rem;">
+  				<img src="{{asset('images/bread.jpg')}}" class="card-img-top">
+  				<div class="card-body">
+    				<h4 class="card-title">Breads</h4>
+    				<a href="#" class="btn btn-primary">Go inside</a>
   				</div>
 			</div>
     	</div>
     </div>
 </div>
 <div class="container">
-	
+	<div class="row">
+		<div class="col-6 col-sm-4">
+    		<div class="card mt-5 text-center" style="width: 20rem;">
+  				<img src="{{asset('images/muffins.jpg')}}" class="card-img-top">
+  				<div class="card-body">
+    				<h4 class="card-title">Muffins</h4>
+    				<a href="#" class="btn btn-primary">Go inside</a>
+  				</div>
+			</div>
+    	</div>
+    	<div class="col-6 col-sm-4">
+    		<div class="card mt-5 text-center" style="width: 20rem;">
+  				<img src="{{asset('images/donuts.jpg')}}" class="card-img-top">
+  				<div class="card-body">
+    				<h4 class="card-title">Doughnut</h4>
+    				<a href="#" class="btn btn-primary">Go inside</a>
+  				</div>
+			</div>
+    	</div>
+    	<div class="col-6 col-sm-4">
+    		<div class="card mt-5 text-center" style="width: 20rem;">
+  				<img src="{{asset('images/pizza.jpg')}}" class="card-img-top">
+  				<div class="card-body">
+    				<h4 class="card-title">Pizzas</h4>
+    				<a href="#" class="btn btn-primary">Go inside</a>
+  				</div>
+			</div>
+    	</div>
+	</div>
 </div>
 
 @endsection
