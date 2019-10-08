@@ -34,7 +34,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/product')}}">Product</a>
+                            <a class="nav-link" href="{{ url('/MSproduct')}}">Product</a>
                         </li>
                     </ul>
 
