@@ -1,10 +1,12 @@
+
+// catagorys module
 $("document").ready(function() {
-    document.getElementById("cookies").addEventListener("click", function (evt) {
-        $("#product").show("slow",function(){
-            aboutProfile();
-        });
-    });
+    document.getElementById("click").addEventListener("click", function (evt) {
+      	$("#catagory").show("slow",function(){
+        	putcatagory();
+     	});
+   });
 });
-function aboutProfile() {
-    $( "product" ).load( "panal.html" );
+function putcatagory() {
+    $( "#catagory" ).load('/putcatagory');
 } 

@@ -30,5 +30,9 @@ Route::get('/home', function(){
 	}
 });
 
-Route::get('/product', 'product@product');
-Route::get('/MSproduct', 'admin\product@product');
+Route::get('/catagory', 'catagory@catagory');
+Route::get('/MScatagory', 'admin\catagory@getcatagory');
+Route::get('/putcatagory', function(){
+	return view('admin.putcatagory');
+});
+Route::get('/MSaddcatagory', 'admin\catagory@putcatagory');
