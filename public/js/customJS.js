@@ -8,5 +8,5 @@ $("document").ready(function() {
    });
 });
 function putcatagory() {
-    $( "#catagory" ).load('/putcatagory');
+    $( "#catagory" ).load('/addcategory');
 } 

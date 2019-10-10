@@ -30,9 +30,8 @@ Route::get('/home', function(){
 	}
 });
 
-Route::get('/catagory', 'catagory@catagory');
-Route::get('/MScatagory', 'admin\catagory@getcatagory');
-Route::get('/putcatagory', function(){
-	return view('admin.putcatagory');
+Route::get('/admincategory', 'admin\admincategory@show');
+Route::get('/addcategory', function(){
+	return view('admin.addcategory');
 });
-Route::get('/MSaddcatagory', 'admin\catagory@putcatagory');
+Route::post('/admincategory', 'admin\admincategory@store');
